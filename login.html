@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentication</title>
+    <style>
+        body {
+            background-color: #1a1a2e;
+            color: #e94560;
+            text-align: center;
+            font-family: 'Press Start 2P', cursive;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .auth-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #16213e;
+            padding: 30px;
+            border-radius: 10px;
+        }
+        .auth-container h2 {
+            color: #ffbe0b;
+        }
+        .auth-container input {
+            width: 250px;
+            height: 40px;
+            margin: 10px;
+            border-radius: 5px;
+            border: none;
+            text-align: center;
+            font-size: 1em;
+        }
+        .auth-container button {
+            width: 150px;
+            height: 40px;
+            background-color: #ffbe0b;
+            color: #1a1a2e;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="auth-container">
+        <h2>Sign In</h2>
+        <input type="text" placeholder="Username">
+        <input type="password" placeholder="Password">
+        <button>Sign In</button>
+    </div>
+    <br>
+    <div class="auth-container">
+        <h2>Sign Up</h2>
+        <input type="text" placeholder="Username">
+        <input type="email" placeholder="Email">
+        <input type="password" placeholder="Password">
+        <button>Sign Up</button>
+    </div>
+</body>
+</html>
